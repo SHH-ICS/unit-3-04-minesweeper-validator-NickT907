@@ -32,11 +32,11 @@ while row < 3:
 #print("the number of bombs are", bomb)
 
 middle_grid = grid[1][1]
-print("The middle value is", middle_grid)
+print("The value of the middle is", middle_grid)
 if middle_grid == bomb:
  # print("Valid")
-  validation = "Valid"
+  validation = "This board is valid!"
 else:
 #  print("Invalid, check interior block")
-  validation = "Invalid; check the middle block"
+  validation = "Invalid board. Check the middle block"
 print (validate(grid))
